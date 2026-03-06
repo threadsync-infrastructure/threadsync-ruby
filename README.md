@@ -8,14 +8,12 @@ Official Ruby SDK for the [ThreadSync](https://threadsync.io) API — enterprise
 
 ## Installation
 
-```bash
-gem install threadsync
-```
+> **Preview**: SDKs are in preview and installed from GitHub. RubyGems packages will be available at GA.
 
-Or add to your Gemfile:
+Add to your Gemfile:
 
 ```ruby
-gem 'threadsync'
+gem 'threadsync', git: 'https://github.com/threadsync-infrastructure/threadsync-ruby.git'
 ```
 
 Then run:
